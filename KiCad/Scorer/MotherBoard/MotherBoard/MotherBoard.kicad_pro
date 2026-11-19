@@ -69,7 +69,13 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -206,7 +212,11 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        1.0,
+        2.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -233,7 +243,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -665,7 +680,7 @@
         "uuid": "5f40b44b-67f0-4a90-93c2-de000ac00dcf"
       }
     ],
-    "used_designators": "#PWR1-39,12VIN1,12VOUT1,CN1,DribblerOut1,EXTRA\\-PINS1-2,GateResistor1,I2C\\-OUT1-2,LED1-2,M1+2OUT1,Q1,TCRT\\-IN2-4,TX\\-RX2-3,TX\\-RX1(3.3V)1,TX\\-RX2(5V)1,U1,VMOTOUT1,leftHeader1,rightHeader1",
+    "used_designators": "#PWR1-44,12VIN1,12VOKR1,12VOUT1,15PLEDR1,28PLEDR1,CN1,D1-4,DribblerOut1-2,EXTRA\\-PINS1-2,GateResistor1-4,I2C\\-OUT1-2,LED1-2,M1+2OUT1,Q1,TCRT\\-IN2-4,TX\\-RX2-3,TX\\-RX1(3.3V)1,TX\\-RX2(5V)1,U1,VMOTOUT1,leftHeader1,rightHeader1",
     "variants": []
   },
   "sheets": [
